@@ -35,15 +35,15 @@ An Interactive BOM is hosted online at:
 
 You can also view it locally by opening [bom/ibom.html](bom/ibom.html) in any web browser.
 
-| Ref | Value / Part | Footprint | Notes |
-| :--- | :--- | :--- | :--- |
-| U1, U2 | 74HCT670 | DIP-16 (300 mil) | 4x4 Register File (mapper registers) |
-| U3 | 74LS139 | DIP-16 (300 mil) | Dual 2-to-4 decoder |
-| U4 | 74HCT30 | DIP-14 (300 mil) | 8-input NAND gate |
-| U5, U6 | AS6C4008-55PCN | DIP-32 (600 mil) | 512K x 8 Low Power SRAM (Total 1024 KB) |
-| C1–C6 | 100 nF | 2.5 mm pitch | Ceramic decoupling capacitors |
-| C7 | 22 µF | Radial, 2.5 mm pitch | Electrolytic filter capacitor (16V+) |
-| J1 | MSX Edge | Card edge | Standard MSX 50-pin slot connector |
+| Ref | Value / Part | Qty | Footprint | Notes |
+| :--- | :--- | :---: | :--- | :--- |
+| U1, U2 | 74HCT670 | 2 | DIP-16 (300 mil) | 4x4 Register File (mapper registers) |
+| U3 | 74LS139 | 1 | DIP-16 (300 mil) | Dual 2-to-4 decoder |
+| U4 | 74HCT30 | 1 | DIP-14 (300 mil) | 8-input NAND gate |
+| U5, U6 | AS6C4008-55PCN | 2 | DIP-32 (600 mil) | 512K x 8 Low Power SRAM (Total 1024 KB) |
+| C1–C6 | 100 nF | 6 | 2.5 mm pitch | Ceramic decoupling capacitors |
+| C7 | 22 µF | 1 | Radial, 2.5 mm pitch | Electrolytic filter capacitor (16V+) |
+| J1 | MSX Edge | 1 | Card edge | Standard MSX 50-pin slot connector |
 
 Using quality DIP sockets for U1–U6 is recommended.
 
